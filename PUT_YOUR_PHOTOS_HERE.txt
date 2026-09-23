@@ -1,0 +1,13 @@
+PUT YOUR 8 PHOTOS IN assets/photos/
+
+Keep these exact names:
+photo01.jpg
+photo02.jpg
+photo03.jpg
+photo04.jpg
+photo05.jpg
+photo06.jpg
+photo07.jpg
+photo08.jpg
+
+Just replace the existing placeholder files. Do not change the filenames.

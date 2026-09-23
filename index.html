@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f7c8d7">
+<title>Aafuu — A Little Universe</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Parisienne&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="grain"></div>
+<div id="stars"></div>
+
+<section id="landing" class="screen">
+  <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+  <div class="landing-card">
+    <div class="tiny-label">A DIGITAL EDITORIAL · 01</div>
+    <h1>Aafuu<span>.</span></h1>
+    <p>a little universe made for you</p>
+    <button id="enterBtn" class="pill">Open the book <span>↗</span></button>
+    <div class="hint">headphones recommended · 30s editorial cut</div>
+  </div>
+</section>
+
+<main id="experience" class="hidden">
+  <header class="topbar">
+    <div class="brand">AAFUU</div>
+    <div class="page-count"><span id="pageNo">01</span> / 12</div>
+    <button id="musicBtn" class="music-pill"><span class="music-dot"></span><span id="musicText">PLAY</span></button>
+  </header>
+
+  <section class="book-stage" id="bookStage">
+    <div class="book-shadow"></div>
+    <div class="book" id="book">
+      <div class="cover back-cover"></div>
+      <div class="pages">
+        <article class="spread active" data-page="1">
+          <div class="paper left">
+            <div class="folio">01</div>
+            <div class="small-kicker">A LITTLE UNIVERSE</div>
+            <h2>For<br><em>Aafuu</em></h2>
+            <p class="lead">Some people deserve more than a message.</p>
+            <div class="scribble">✦ made with a little too much care</div>
+          </div>
+          <div class="paper right cover-photo">
+            <div class="photo-frame tilt-a"><img src="assets/photos/photo01.jpg" alt="placeholder"></div>
+            <div class="sticker sticker-heart">♡</div>
+            <div class="sticker sticker-star">✦</div>
+          </div>
+        </article>
+
+        <article class="spread" data-page="2">
+          <div class="paper left photo-page">
+            <div class="tape"></div><img src="assets/photos/photo02.jpg" alt="placeholder">
+            <span class="caption">memory / 02</span>
+          </div>
+          <div class="paper right">
+            <div class="folio">02</div><div class="small-kicker">AAFII</div>
+            <h3>The little things<br>stay the longest.</h3>
+            <p class="body">This page is waiting for one of those memories that still makes you smile without trying.</p>
+            <div class="hand-note">keep this one ✿</div>
+          </div>
+        </article>
+
+        <article class="spread" data-page="3">
+          <div class="paper left">
+            <div class="folio">03</div><div class="small-kicker">GOLU MOLU</div>
+            <h3>tiny chaos.<br>big smile.</h3>
+            <div class="polaroid-stack">
+              <img src="assets/photos/photo03.jpg" class="p1" alt="">
+              <img src="assets/photos/photo04.jpg" class="p2" alt="">
+            </div>
+          </div>
+          <div class="paper right blush">
+            <div class="quote">“Some memories don't need a caption.”</div>
+            <div class="doodle">✦  ✿  ♡  ✦</div>
+            <p class="body">Tap the photos. Drag them around. This spread is yours to play with.</p>
+          </div>
+        </article>
+
+        <article class="spread" data-page="4">
+          <div class="paper left blush">
+            <div class="folio">04</div><div class="small-kicker">KUCCHU PUCHCHU</div>
+            <h3>A page full<br>of softness.</h3>
+            <button class="reveal-note" data-note="You deserve little moments that make an ordinary day feel lighter.">tap for a tiny note</button>
+          </div>
+          <div class="paper right">
+            <div class="photo-frame wide tilt-b"><img src="assets/photos/photo05.jpg" alt=""></div>
+            <div class="floating-label">cutu putu ✿</div>
+          </div>
+        </article>
+
+        <article class="spread" data-page="5">
+          <div class="paper left photo-page"><img src="assets/photos/photo06.jpg" alt=""><span class="caption">a moment worth keeping</span></div>
+          <div class="paper right">
+            <div class="folio">05</div><div class="small-kicker">THE LITTLE THINGS</div>
+            <div class="list">
+              <div><b>01</b><span>the way you make normal moments feel different</span></div>
+              <div><b>02</b><span>the random laughs</span></div>
+              <div><b>03</b><span>the memories that sneak back later</span></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="spread" data-page="6">
+          <div class="paper left">
+            <div class="folio">06</div><div class="small-kicker">BEBOOO</div>
+            <h3>pause here.</h3>
+            <p class="body">Let the music play for a second.</p>
+            <div class="cassette">
+              <div class="cassette-label">AAFUU / SIDE A</div><div class="reels"><i></i><i></i></div>
+            </div>
+          </div>
+          <div class="paper right photo-page"><img src="assets/photos/photo07.jpg" alt=""><span class="caption">press play & let it breathe</span></div>
+        </article>
+
+        <article class="spread" data-page="7">
+          <div class="paper left blush">
+            <div class="folio">07</div><div class="small-kicker">MERI KHUSHI</div>
+            <h3>one more<br>little thing…</h3>
+            <button class="reveal-note" data-note="I hope today gets a little softer for you. That's honestly all I wanted this page to do.">open message</button>
+          </div>
+          <div class="paper right">
+            <div class="star-map" id="starMap"></div>
+            <div class="map-caption">tap a star</div>
+          </div>
+        </article>
+
+        <article class="spread" data-page="8">
+          <div class="paper left photo-page"><img src="assets/photos/photo08.jpg" alt=""><span class="caption">my favourite frame</span></div>
+          <div class="paper right">
+            <div class="folio">08</div><div class="small-kicker">MERI ZINDAGI</div>
+            <h3>not a perfect story.<br>a real one.</h3>
+            <p class="body">And sometimes real stories have awkward pages. What matters is how gently we turn the next one.</p>
+            <div class="signature">— from someone who cares</div>
+          </div>
+        </article>
+
+        <article class="spread" data-page="9">
+          <div class="paper left">
+            <div class="folio">09</div><div class="small-kicker">MY QUEEN</div>
+            <h3>the night<br>is coming.</h3>
+            <p class="body">The magazine is about to become a sky.</p>
+            <div class="countdown">✦ ✦ ✦</div>
+          </div>
+          <div class="paper right blush">
+            <div class="moon"></div>
+            <p class="center-note">one last chapter</p>
+          </div>
+        </article>
+
+        <article class="spread" data-page="10">
+          <div class="paper left night-paper">
+            <div class="folio">10</div><div class="small-kicker">THE NIGHT SKY</div>
+            <div class="mini-stars"></div>
+            <h3>find the stars.</h3>
+            <p class="body">Each one is hiding a little message.</p>
+          </div>
+          <div class="paper right night-paper">
+            <div class="constellation"></div>
+          </div>
+        </article>
+
+        <article class="spread" data-page="11">
+          <div class="paper left blush">
+            <div class="folio">11</div><div class="small-kicker">AAFIA</div>
+            <h3>your real name<br>belongs here.</h3>
+            <p class="body">Because behind all the silly nicknames is one person I genuinely care about.</p>
+          </div>
+          <div class="paper right">
+            <div class="letter">
+              <div class="small-kicker">A NOTE</div>
+              <p>I'm sorry for the part where I made things heavier than they needed to be. I can't undo a moment, but I can be more thoughtful about the moments that come after it.</p>
+              <p>I made this because I wanted to give you something that feels a little lighter.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="spread" data-page="12">
+          <div class="paper left final-paper">
+            <div class="small-kicker">END / BEGINNING</div>
+            <h2>For my<br><em>cutiepiee.</em></h2>
+            <p class="lead">No pressure. No big speech. Just a little universe made to make you smile.</p>
+            <div class="signature big">— [YOUR NAME]</div>
+          </div>
+          <div class="paper right final-paper">
+            <div class="final-orbit"></div>
+            <div class="final-star">✦</div>
+            <div class="small-kicker">12 / 12</div>
+            <p class="center-note">goodnight, Aafuu ♡</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <nav class="controls">
+    <button id="prevBtn" aria-label="Previous page">←</button>
+    <div class="progress"><span id="progressBar"></span></div>
+    <button id="nextBtn" aria-label="Next page">→</button>
+  </nav>
+</main>
+
+<div id="toast" class="toast"></div>
+<audio id="audio" preload="auto" src="assets/music.mp3"></audio>
+<script src="script.js"></script>
+</body>
+</html>
